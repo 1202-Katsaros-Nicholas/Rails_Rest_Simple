@@ -8,6 +8,7 @@ Make sure you have rails installed, then clone this repository and run:
 from the notes_api directory.
 
 The following API requests are available(examples given):
+
 Create note: ```curl -X POST http://localhost:3000/notes -H "Content-Type: application/json
 " -d '{"title": "Sample Note", "content": "Hello World!"}'```
 
